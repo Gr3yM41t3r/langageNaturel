@@ -3,7 +3,6 @@ import re
 import requests
 from bs4 import BeautifulSoup
 import os.path
-import numpy as np
 import time
 
 data = []
