@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import os.path
 import numpy as np
 import time
+
 data = []
 
 relatiuon_deductive = ['r_isa', 'r_holo']
@@ -118,7 +119,7 @@ def createCache(terme, relation):
         return extraction_relation_html(terme, relation)
 
 
-def transitive(mot1, relation, mot2):
+def transitive(mot1, relation, mot2, maxsolutions):
     idmot1 = getWordId(mot1)
     idmot2 = getWordId(mot2)
     idrelation = getRealationId(relation)
@@ -127,16 +128,49 @@ def transitive(mot1, relation, mot2):
             'Cache/' + idrelation + '/' + idmot2 + '.json') as relationmot2:
         data = json.load(relationmot1)
         data2 = json.load(relationmot2)
+        transitive_array1 = []
+        transitive_array2 = []
+        weight = {}
         for i in data:
             if i['id'] == "r":
                 if i['r'] == "sortante":
-                    for j in data2:
-                        if j['id'] == "r":
-                            if j["r"] == "entrante" and j["node1"] == i["node2"]:
-                                jnode1 = getIdWord(idrelation, idmot1, i["node2"])
-                                print(
-                                    "oui parceque " + mot1 + " " + relation + " " + jnode1 + " et " + jnode1 + " " + relation + " " + mot2 + " w" +
-                                    j['w'])
+                    transitive_array1.append(i['node2'])
+        for j in data2:
+            if j['id'] == "r":
+                if j['r'] == "entrante":
+                    transitive_array2.append(j['node1'])
+                    weight.update({j['node1']: j['w']})
+
+        intersection = list(set(transitive_array1) & set(transitive_array2))
+        search_dico = {}
+        printing_dic = {}
+        counter = 0
+        with open('Cache/' + idrelation + "/" + idmot2 + ".json") as dddd:
+            vv = json.load(dddd)
+            for n in vv:
+                if n['id'] == "e":
+                    search_dico.update({n['eid']: n['mot']})
+        for l in intersection:
+            counter += 1
+            jnode1 = search_dico.get(l)
+            printing_dic.update({
+                str(counter) + ") oui parceque " + mot1 + " " + relation + " " + jnode1 + " and " + jnode1 + " " + relation + " " + mot2 + "  --weigth: " + weight.get(
+                    l): int(weight.get(l))})
+
+        for i in sorted(printing_dic, key=printing_dic.get, reverse=True):
+            if maxsolutions > 0:
+                print(i)
+                maxsolutions -= 1
+        ''' for i in data:
+                if i['id'] == "r":
+                    if i['r'] == "sortante":
+                        for j in data2:
+                            if j['id'] == "r":
+                                if j["r"] == "entrante" and j["node1"] == i["node2"]:
+                                    jnode1 = getIdWord(idrelation, idmot1, i["node2"])
+                                    print(
+                                        "oui parceque " + mot1 + " " + relation + " " + jnode1 + " et " + jnode1 + " " + relation + " " + mot2 + " w" +
+                                        j['w'])'''
 
 
 def deductive(mot1, relation, mot2, maxsolutions):
@@ -166,12 +200,12 @@ def deductive(mot1, relation, mot2, maxsolutions):
             intersection = list(set(first) & set(second))
             printing_dic = {}
             counter = 0
-            search_dico={}
+            search_dico = {}
             with open('Cache/' + idrelation + "/" + idmot2 + ".json") as dddd:
                 vv = json.load(dddd)
                 for n in vv:
                     if n['id'] == "e":
-                        search_dico.update({n['eid']:n['mot']})
+                        search_dico.update({n['eid']: n['mot']})
             for l in intersection:
                 counter += 1
                 jnode1 = search_dico.get(l)
@@ -184,7 +218,7 @@ def deductive(mot1, relation, mot2, maxsolutions):
                     maxsolutions -= 1
 
 
-def inductive(mot1, relation, mot2,maxsolutions):
+def inductive(mot1, relation, mot2, maxsolutions):
     idmot1 = getWordId(mot1)
     idmot2 = getWordId(mot2)
     idrelation = getRealationId(relation)
@@ -227,29 +261,35 @@ def inductive(mot1, relation, mot2,maxsolutions):
                     maxsolutions -= 1
 
 
-
-
-def detectInfernce(mot1, relation, mot2,maxsolutions):
+def detectInfernce(mot1, relation, mot2, maxsolutions):
     if not createCache(mot2, relation):
         return
     if not createCache(mot1, relation):
         return
     print("_______________________transitive___________________________")
-    transitive(mot1, relation, mot2)
+    transitive(mot1, relation, mot2, maxsolutions)
     print("_______________________inductive___________________________")
-    inductive(mot1, relation, mot2,maxsolutions)
+    inductive(mot1, relation, mot2, maxsolutions)
     print("_______________________deductive___________________________")
-    deductive(mot1, relation, mot2,maxsolutions)
-
-
-
-
+    deductive(mot1, relation, mot2, maxsolutions)
 
 
 print("************************Mini projet sur les inférences************************")
-mot1 = input("entrez le 1er mot  : ")
-relation = input("entrez la relation  :  ")
-mot2 = input("entrez le 2eme mot  :  ")
-maxsolution = input("entrez le nombre maximum de solution  :  ")
+while True:
+    mot1 = input("entrez le 1er mot  : ")
+    if mot1 == '' :
+        break
+    relation = input("entrez la relation  :  ")
+    if relation == '':
+        break
 
-detectInfernce(mot1,relation,mot2,int(maxsolution))
+    mot2 = input("entrez le 2eme mot  :  ")
+    if mot2 == '':
+        break
+    maxsolution = input("entrez le nombre maximum de solution(vide = toutes les solutions)  :  ")
+    if mot1 == '' or mot2 == '' or relation == '':
+        break
+    if maxsolution == '':
+        maxsolution = 10000
+    detectInfernce(mot1, relation, mot2, int(maxsolution))
+print("************************The End************************")
