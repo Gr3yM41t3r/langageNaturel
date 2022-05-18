@@ -1,0 +1,120 @@
+[<code>
+// DUMP pour le terme 'Tour Eiffel' (eid=163590)
+// NE PAS TENIR COMPTE DE L'ORDRE DES RELATIONS DANS CE DUMP
+
+<def>
+<br>
+La tour Eiffel Écouter est une tour de fer puddlé de 324 mètres de hauteur (avec antennes) [o 1] située à Paris, à l'extrémité nord-ouest du parc du Champ-de-Mars en bordure de la Seine dans le 7e arrondissement. Son adresse officielle est 5, avenue Anatole-France.
+</br></def>
+
+
+
+// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+
+nt;1;'n_term'
+nt;2;'n_form'
+nt;666;'n_AKI'
+nt;777;'n_wikipedia'
+
+// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name' 
+
+e;163590;'Tour Eiffel';1;72
+e;213995;'Paris&gt;159560';1;384;'Paris&gt;capitale de la France'
+e;191119;'Ville-Lumière';1;50
+e;191118;'Ville Lumière';1;50
+e;87987;'France';1;4535
+e;113317;'Paris';1;3888
+e;230448;'Trocadéro';1;4
+e;84829;'champ de Mars';1;50
+e;235234;'Champ de Mars';666;4
+e;136786;'ville';1;9193
+e;233194;'France&gt;22243';1;236;'France&gt;pays'
+e;86557;'vertigo';1;52
+e;6365345;'sensation vertigineuse';1;0
+e;15592944;'en:disorder of equilibrium';1;0
+e;15449354;'en:problem with balance';1;0
+e;15449353;'en:balance problem';1;0
+e;1823064;'trouble de l'équilibre';777;0
+e;6810075;'en:dizziness';1;0
+e;6814965;'en:vertigo';1;0
+e;6321986;'sensation de rotation';1;0
+e;6306100;'tête pivotante';1;0
+e;6326424;'sensation de tournoiement';1;0
+e;6372465;'état vertigineux';1;0
+e;4048;'vertige';1;154
+e;6343580;'vertige subjectif';1;0
+e;6345599;'vertige rotatoire';1;0
+e;6409545;'état nébuleux';1;0
+e;15784;'étourdissement';1;92
+e;6391602;'vertigo rotatoire';1;0
+e;6286081;'sensation rotatoire';1;0
+e;242897;'forte affluence';1;2
+e;425602;'étourdie';1;62
+e;1854032;'vertiges';1;16
+e;405325;'Étourdi';1;50
+e;2313039;'étourdies';2;0
+e;2313052;'étourdis';2;0
+e;2313060;'étourdissements';2;0
+e;15290210;'en:rotary vertigo';1;0
+e;14932163;'en:giddiness';1;0
+e;384166;'touriste étranger';1;50
+e;83053;'touriste';1;632
+e;166528;'touristes';1;1948
+e;111791;'vertigineux';1;50
+
+// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp' 
+
+rt;15;'r_lieu';'chose&gt;lieu';Il est demandé d'énumérer les LIEUX typiques où peut se trouver le terme/objet en question. (carotte r_lieu potager)
+
+// les relations sortantes : r;rid;node1;node2;type;w 
+// 10 relations sortantes 
+
+r;2201472;163590;213995;15;619
+r;13675926;163590;191119;15;270
+r;13675923;163590;191118;15;264
+r;85003292;163590;87987;15;241
+r;2201471;163590;113317;15;171
+r;85003290;163590;230448;15;93
+r;85003287;163590;84829;15;73
+r;85003286;163590;235234;15;64
+r;85003279;163590;136786;15;53
+r;478720827;163590;233194;15;47
+
+// les relations entrantes : r;rid;node1;node2;type;w 
+// 32 relations entrantes 
+
+r;210597355;86557;163590;15;116
+r;211716087;6365345;163590;15;115
+r;401148027;15592944;163590;15;110
+r;399716939;15449354;163590;15;110
+r;399710811;15449353;163590;15;110
+r;396270954;1823064;163590;15;110
+r;211722514;6810075;163590;15;110
+r;204090201;6814965;163590;15;110
+r;211750960;6321986;163590;15;109
+r;330351477;6306100;163590;15;105
+r;211762381;6326424;163590;15;101
+r;330345107;6372465;163590;15;100
+r;2393050;4048;163590;15;98
+r;330369595;6343580;163590;15;90
+r;330376881;6345599;163590;15;85
+r;330363563;6409545;163590;15;85
+r;211733850;15784;163590;15;81
+r;330357513;6391602;163590;15;80
+r;211768084;6286081;163590;15;74
+r;2303427;242897;163590;15;53
+r;211779489;425602;163590;15;15
+r;211773781;1854032;163590;15;15
+r;211756662;405325;163590;15;15
+r;211745257;2313039;163590;15;15
+r;211739549;2313052;163590;15;15
+r;211728194;2313060;163590;15;15
+r;400554598;15290210;163590;15;10
+r;413821968;14932163;163590;15;5
+r;92683214;384166;163590;15;1
+r;92682995;83053;163590;15;1
+r;92682925;166528;163590;15;1
+r;211790149;111791;163590;15;-15
+
+// END
+</code>]

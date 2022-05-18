@@ -1,0 +1,51 @@
+[<code>
+// DUMP pour le terme 'Tour Eiffel' (eid=163590)
+// NE PAS TENIR COMPTE DE L'ORDRE DES RELATIONS DANS CE DUMP
+
+<def>
+<br>
+La tour Eiffel Écouter est une tour de fer puddlé de 324 mètres de hauteur (avec antennes) [o 1] située à Paris, à l'extrémité nord-ouest du parc du Champ-de-Mars en bordure de la Seine dans le 7e arrondissement. Son adresse officielle est 5, avenue Anatole-France.
+</br></def>
+
+
+
+// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+
+nt;1;'n_term'
+
+// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name' 
+
+e;163590;'Tour Eiffel';1;72
+e;102105;'monument';1;2720
+e;135190;'lieu';1;3861
+e;256557;'destination touristique';1;50
+e;215071;'tour&gt;55137';1;148;'tour&gt;construction'
+e;10879;'tour';1;3705
+e;156977;'tour&gt;146881';1;50;'tour&gt;Nom:Fem+SG'
+e;157283;'lieu&gt;134218';1;268;'lieu&gt;endroit'
+e;241591;'monument&gt;45109';1;44;'monument&gt;édifice'
+e;14094383;'partie de l'espace';1;0
+
+// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp' 
+
+rt;8;'r_hypo';'spécifique';Il est demandé d'énumérer des SPECIFIQUES/hyponymes du terme. Par exemple, 'mouche', 'abeille', 'guêpe' pour 'insecte'.
+
+// les relations sortantes : r;rid;node1;node2;type;w 
+// 0 relations sortantes 
+
+
+// les relations entrantes : r;rid;node1;node2;type;w 
+// 9 relations entrantes 
+
+r;1695934;102105;163590;8;92
+r;9857570;135190;163590;8;63
+r;9855122;256557;163590;8;62
+r;9744310;215071;163590;8;54
+r;9654793;10879;163590;8;35
+r;96713625;156977;163590;8;31
+r;243596462;157283;163590;8;26
+r;243593447;241591;163590;8;26
+r;383499214;14094383;163590;8;25
+
+// END
+</code>]

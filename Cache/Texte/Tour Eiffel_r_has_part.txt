@@ -1,0 +1,71 @@
+[<code>
+// DUMP pour le terme 'Tour Eiffel' (eid=163590)
+
+<def>
+<br>
+La tour Eiffel Écouter est une tour de fer puddlé de 324 mètres de hauteur (avec antennes) [o 1] située à Paris, à l'extrémité nord-ouest du parc du Champ-de-Mars en bordure de la Seine dans le 7e arrondissement. Son adresse officielle est 5, avenue Anatole-France.
+</br></def>
+
+
+
+// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+
+nt;1;'n_term'
+nt;777;'n_wikipedia'
+
+// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name' 
+
+e;163590;'Tour Eiffel';1;72
+e;15246960;'étage du dessous';1;0
+e;139869;'charpente';1;318
+e;14868804;'Premier étage';777;0
+e;14956396;'en:first floor';1;0
+e;14956397;'en:second floor';1;0
+e;118350;'ascenseur';1;316
+e;123573;'sommet';1;3361
+e;216024;'pied&gt;216019';1;52;'pied&gt;pied d'objet'
+e;81320;'escalier';1;910
+e;72257;'base';1;3815
+e;24660;'palier';1;108
+e;221992;'base&gt;214005';1;58;'base&gt;partie inférieure'
+e;206083;'premier étage';1;58
+e;34898;'pied';1;4548
+e;19872;'étage';1;1559
+e;87987;'France';1;4525
+e;213995;'Paris&gt;159560';1;384;'Paris&gt;capitale de la France'
+e;113317;'Paris';1;3886
+e;191118;'Ville Lumière';1;50
+e;191119;'Ville-Lumière';1;50
+
+// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp' 
+
+rt;9;'r_has_part';'partie';Il faut donner des PARTIES/constituants/éléments (a pour méronymes) du mot cible. Par exemple, 'voiture' a comme parties : 'porte', 'roue', 'moteur', ...
+
+// les relations sortantes : r;rid;node1;node2;type;w 
+
+r;413209080;163590;15246960;9;3
+r;14637547;163590;139869;9;4
+r;385040408;163590;14868804;9;25
+r;432484035;163590;14956396;9;25
+r;432484036;163590;14956397;9;25
+r;85003252;163590;118350;9;26
+r;85003256;163590;123573;9;27
+r;85003259;163590;216024;9;28
+r;2520921;163590;81320;9;31
+r;85003265;163590;72257;9;32
+r;85003272;163590;24660;9;34
+r;85003274;163590;221992;9;34
+r;85003273;163590;206083;9;35
+r;85003275;163590;34898;9;35
+r;85003276;163590;19872;9;36
+
+// les relations entrantes : r;rid;node1;node2;type;w 
+
+r;85282354;87987;163590;9;7
+r;85282355;213995;163590;9;26
+r;96700943;113317;163590;9;27
+r;85282357;191118;163590;9;124
+r;85282356;191119;163590;9;125
+
+// END
+</code>]

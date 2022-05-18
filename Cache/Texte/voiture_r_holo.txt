@@ -1,0 +1,628 @@
+[<code>
+// DUMP pour le terme 'voiture' (eid=6890)
+// NE PAS TENIR COMPTE DE L'ORDRE DES RELATIONS DANS CE DUMP
+
+<def>
+<br>
+1. Véhicule consistant en une caisse montée sur des roues.<br> 
+ Rencontré Artaud [?] qui s'est pris le pied dans la roue de sa voiture, a cogné la tête dans le marchepied, et est retombé sur une botte de paille ; il aurait voulu le faire qu'il n'y serait jamais arrivé.    
+ (Jean Giraudoux, Retour d'Alsace - Août 1914, 1916)  <br> 
+ Quelquefois, lorsque j'arrive, je préviens qu'on envoie une voiture me chercher à la gare ; souvent je ne préviens pas.    
+ (Octave Mirbeau, Le Colporteur)  <br> 
+ Le goût de l'équitation, autrefois si prononcé en France, est aujourd'hui en partie perdu où tout le monde préfère monter en voiture ; aussi le cheval de selle est-il presque délaissé.    
+ (Jean Déhès, Essai sur l'amélioration des races chevalines de la France, École impériale vétérinaire de Toulouse, Thèse de médecine vétérinaire, 1868)  <br> 
+ Le 9 décembre 1776, sur les sept heures du soir, une voiture d'assez belle apparence, mais dans laquelle un observateur attentif pouvait reconnaître un carrosse de louage, traversa la cour de l'hôtel des finances.    
+ (Julie de Querangal, Philippe de Morvelle, Revue des Deux Mondes, tome 2, 4, 1833)  <br>
+2. Le terme populaire automobile (simplification historique de l'expression « voiture automobile ») désigne un véhicule à roues, motorisé et destiné au transport terrestre de personnes et de biens. L'abréviation populaire « voiture » est assez courante, bien que ce terme désigne de nombreux types de véhicules qui ne sont pas tous motorisés.<br>
+3. Le terme populaire automobile (simplification historique de l'expression « voiture légère automobile ») désigne un véhicule à roues, motorisé et destiné au transport terrestre de quelques personnes et de leurs bagages. L'abréviation populaire « voiture » est assez courante, bien que ce terme désigne de nombreux types de véhicules qui ne sont pas tous motorisés.<br>
+4. Une automobile (simplification historique de l'expression « voiture légère automobile ») est un véhicule à roues, motorisé et destiné au transport terrestre de quelques personnes et de leurs bagages. L'abréviation populaire « voiture » est assez courante, bien que ce terme désigne de nombreux types de véhicules qui ne sont pas tous motorisés.<br>
+5. Une voiture dite sans permis ou « voiturette » ou parfois micro-voiture ou rarement voiture-oeuf est un véhicule carrossé à moteur dont la réglementation est similaire ou dérivée de celle de la catégorie des cyclomoteurs notamment en ce qui concerne le permis de conduire. En fonction de la législation nationale, la conduite peut ne pas nécessiter de permis de conduire automobile obligatoire. Les caractéristiques techniques ne répondent pas au standard européen d'une voiture de tourisme ; en particulier pour les normes de sécurité : absence d'obligation d'ABS, d'airbag, d'ESP, de TPMS ou d'AEB ou de protection contre les chocs. Il s'agit le plus souvent d'un quadricycle à moteur, mais une voiturette peut être aussi un tricycle à moteur ou véhicule à trois roues.<br/>
+6. Une voiture hippomobile (parfois appelée simplement hippomobile, parfois désigné avec l'hyperonyme voiture) est un véhicule muni de deux ou quatre roues, dont la traction est assurée par un ou plusieurs chevaux, ou encore par d'autres équidés : poneys, ânes, mules et mulets. On peut ajouter les voitures qui peuvent être tirées par des bovins, ou tout autre animal. La voiture hippomobile est destinée à transporter des personnes ou des marchandises sur des distances plus ou moins longues. La voiture hippomobile existe depuis la Préhistoire et a énormément varié dans sa construction, ses formes et ses fonctions, selon le temps et les lieux.
+</br></br></br></br></br></br></br></br></br></def>
+
+
+
+// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+
+nt;1;'n_term'
+nt;2;'n_form'
+nt;666;'n_AKI'
+nt;777;'n_wikipedia'
+
+// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name' 
+
+e;6890;'voiture';1;11678
+e;85501;'circulation';1;2992
+e;153924;'TER';1;126
+e;230719;'DCRI';1;50
+e;191039;'Beijing';1;2
+e;151555;'train à grande vitesse';1;118
+e;143529;'voyage';1;3518
+e;133799;'tunnel';1;2511
+e;151854;'train grande vitesse';1;54
+e;123888;'rallye';1;224
+e;100370;'exposition';1;2214
+e;136788;'TGV';1;1663
+e;27120;'train';1;3922
+e;6863493;'en:tunnel';1;0
+e;20564;'rue';1;6965
+e;4906;'golf';1;934
+e;266109;'train&gt;25800&gt;219629';1;56;'train&gt;chemin de fer&gt;convoi ferroviaire'
+e;33262;'tgv';1;84
+e;15420598;'en:French high-speed train';1;0
+e;15420597;'en:TGV';1;0
+e;168358;'noix de muscade';1;112
+e;15208239;'en:scenic railway';1;0
+e;179694;'montagnes russes';1;24
+e;302402;'noix muscade';777;54
+e;7346254;'en:nutmeg';1;0
+e;176844;'petit pont';1;56
+e;15192881;'en:macis';1;0
+e;260842;'TER&gt;27120';1;24;'TER&gt;train'
+e;226891;'Poudlard Express';666;50
+e;121678;'route';1;4574
+e;236266;'Frogger';1;50
+e;134491;'métro';1;3442
+e;36257;'Pékin';1;1469
+e;153083;'grand huit';1;86
+e;219630;'train&gt;25800';1;174;'train&gt;chemin de fer'
+e;13524;'convoi';1;80
+e;104321;'manège';1;262
+e;133343;'RATP';1;284
+e;142861;'vitre';1;1110
+e;4658;'moteur';1;3467
+e;116089;'rétroviseur';1;188
+e;14953137;'en:windscreen';1;0
+e;28065;'pare-brise';1;192
+e;14953138;'en:windshield';1;0
+e;43548;'pneu';1;796
+e;43839;'roue';1;2591
+e;76583;'volant';1;1789
+e;161241;'parebrise';1;50
+e;239722;'réservoir&gt;123745';1;32;'réservoir&gt;véhicule'
+e;109413;'carrosserie';1;186
+e;54101;'accélérateur';1;192
+e;40184;'siège';1;3638
+e;125198;'phare';1;851
+e;42588;'pédale';1;518
+e;151685;'passagers';1;2698
+e;11959;'chauffeur';1;752
+e;11195;'banquette';1;144
+e;104130;'antenne';1;332
+e;152792;'arbre à cames';1;56
+e;14920775;'en:camshaft';1;0
+e;34148;'toit';1;2084
+e;148108;'roues';1;2320
+e;26152;'frein';1;514
+e;29052;'essuie-glace';1;64
+e;102246;'essieu';1;86
+e;236145;'moteur à quatre temps';666;22
+e;15662904;'en:four-stroke cycle engine';1;0
+e;15523988;'en:four stroke engine';1;0
+e;14936526;'en:windshield wiper';1;0
+e;14936525;'en:windscreen wiper';1;0
+e;15239086;'arbre à came';1;0
+e;140667;'ampoule';1;668
+e;15426083;'en:four-cycle engine';1;0
+e;15419003;'en:four-stroke';1;0
+e;14936535;'en:wiper';1;0
+e;143613;'porte';1;4601
+e;145064;'plaque';1;2442
+e;77315;'vitesse';1;3668
+e;48976;'immatriculation';1;112
+e;103460;'capot';1;90
+e;2077;'réservoir';1;1250
+e;96125;'clignotant';1;76
+e;146265;'carter';1;56
+e;14932533;'en:U-turn';1;0
+e;15069957;'en:reverse gear';1;0
+e;155990;'marche arrière';1;70
+e;117604;'mécanisme';1;2674
+e;4533;'fauteuil';1;2131
+e;81249;'conducteur';1;2003
+e;88989;'cadran';1;228
+e;71418;'courroie';1;62
+e;76657;'ceinture';1;2213
+e;119793;'chambre à air';1;386
+e;51979;'quatrième';1;3031
+e;133813;'essence';1;2134
+e;315184;'banquette arrière';1;50
+e;148105;'ailes';1;2750
+e;115622;'verrou';1;314
+e;7575;'boîte';1;2361
+e;43853;'aile';1;2172
+e;146358;'acier';1;932
+e;114237;'ceinture de sécurité';1;58
+e;215898;'aile&gt;95706';1;52;'aile&gt;automobile'
+e;15102348;'en:seat belt';1;0
+e;9557;'boogie';1;52
+e;154510;'sièges';1;3086
+e;120591;'glissière';1;76
+e;15441113;'en:toilets';1;0
+e;15441112;'en:facilities';1;0
+e;15216216;'cabinet d'aisances';1;0
+e;135956;'lieux';1;3592
+e;14925532;'en:loo';1;0
+e;15048148;'en:restroom';1;0
+e;14925533;'en:toilet';1;0
+e;15076258;'en:john';1;0
+e;9120871;'en:lavatory';1;0
+e;15419004;'en:four-cycle';1;0
+e;15393763;'à quatre temps';1;0
+e;14924427;'en:gearbox';1;0
+e;152961;'pare brise';1;56
+e;14152451;'Boîte de vitesses';777;0
+e;2412527;'boite de vitesse';1;0
+e;179187;'boite de vitesses';1;50
+e;179188;'boîte de vitesses';1;50
+e;154119;'boîte de vitesse';1;66
+e;234591;'capot&gt;95706';1;50;'capot&gt;automobile'
+e;120812;'embrayage';1;96
+e;92836;'toilettes';1;916
+e;340164;'boîte de vitesses automatique';1;50
+e;14935257;'en:fletching';1;0
+e;8738765;'coffre d'une voiture';1;0
+e;134788;'couloir';1;460
+e;141906;'fenêtre';1;2640
+e;107097;'pneus';1;184
+e;159535;'capote de voiture';1;50
+e;235617;'plage arrière';1;16
+e;213892;'pot&gt;155840';1;4;'pot&gt;pot d'échappement'
+e;59282;'soupape';1;70
+e;62788;'miroir';1;2315
+e;233261;'roue&gt;123745';1;98;'roue&gt;véhicule'
+e;45216;'coffre';1;988
+e;163052;'frein à main';1;120
+e;18871;'freins';1;92
+e;222964;'coffre&gt;6890';1;4;'coffre&gt;voiture'
+e;8568732;'feu de recul';1;0
+e;232379;'pneumatique&gt;43839';1;12;'pneumatique&gt;roue'
+e;61557;'réservation';1;210
+e;232377;'pneu&gt;43839';1;28;'pneu&gt;roue'
+e;160345;'auto-radio';1;50
+e;219634;'train&gt;95706';1;50;'train&gt;automobile'
+e;155840;'pot d'échappement';1;96
+e;68115;'waters';1;58
+e;59085;'empennage';1;58
+e;8568751;'joints de culasse';1;0
+e;42188;'filet';1;708
+e;62046;'chauffage';1;1281
+e;212013;'structure d'accueil';1;58
+e;15279245;'en:backup light';1;0
+e;15419943;'en:reversing light';1;0
+e;15419944;'en:reverse light';1;0
+e;15282071;'en:premises';1;0
+e;15428577;'en:dunny';1;0
+e;14961338;'en:back seat';1;0
+e;14944897;'en:cylinder head gasket';1;0
+e;15275001;'en:wind screen';1;0
+e;14939218;'en:handbrake';1;0
+e;2148419;'clignotants';2;0
+e;2194381;'essieux';2;0
+e;139424;'alarme';1;416
+e;87994;'bogie';1;50
+e;147551;'boggie';1;54
+e;202357;'joint de culasse';1;52
+e;216828;'filet&gt;325718';1;24;'filet&gt;réseau de mailles'
+e;216871;'batterie&gt;27891';1;104;'batterie&gt;accumulateur'
+e;212955;'airbag';666;12
+e;147621;'touches';1;148
+e;187626;'réservoir de carburant';1;18
+e;215516;'champignon&gt;54101';1;4;'champignon&gt;accélérateur'
+e;158197;'carosserie';1;52
+e;142367;'pot';1;978
+e;270555;'moteur avant';1;50
+e;256781;'toit&gt;219077';1;50;'toit&gt;partie supérieure'
+e;227954;'phare&gt;123745';1;12;'phare&gt;véhicule'
+e;213853;'volant&gt;6890';1;22;'volant&gt;voiture'
+e;1595;'bouclier';1;1228
+e;95659;'marteau';1;1321
+e;4245;'batterie';1;2943
+e;124863;'pneumatique';1;264
+e;19796;'klaxon';1;108
+e;232826;'manche à balai&gt;87925';1;6;'manche à balai&gt;aviation'
+e;64659;'cockpit';1;100
+e;6910;'coque';1;544
+e;213627;'aileron&gt;5977';1;50;'aileron&gt;gouverne'
+e;121362;'fuselage';1;56
+e;214625;'queue&gt;59085';1;2;'queue&gt;empennage'
+e;365119;'moteur de voiture';1;50
+e;11501;'soupapes';1;50
+e;30443;'enjoliveur';1;58
+e;52396;'transmission';1;3023
+e;233938;'cylindre&gt;204066';1;6;'cylindre&gt;moteur à explosion'
+e;136293;'châssis';1;98
+e;155932;'pare-choc';1;72
+e;132398;'moyeu';1;60
+e;2289;'pare-chocs';1;58
+e;91356;'pont';1;3367
+e;52141;'proue';1;228
+e;87760;'carlingue';1;52
+e;139467;'cale';1;146
+e;95256;'queue';1;3266
+e;218888;'pont&gt;30171';1;18;'pont&gt;navire'
+e;213441;'coque&gt;107150';1;34;'coque&gt;bateau'
+e;48860;'poupe';1;156
+e;378137;'rétroviseur extérieur';1;50
+e;216183;'pièce mécanique';1;10
+e;378138;'rétroviseur intérieur';1;50
+e;213566;'glace&gt;20254';1;2;'glace&gt;vitrage'
+e;244695;'cellule&gt;87925';1;50;'cellule&gt;aviation'
+e;236977;'nez&gt;236976';1;50;'nez&gt;partie avant'
+e;10175748;'aile avant';1;0
+e;25631;'calandre';1;50
+e;153429;'portes';1;3033
+e;600098;'capot&gt;171870';1;0;'capot&gt;Nom:'
+e;205495;'phare de recul';1;52
+e;15059447;'en:detention centre';1;0
+e;16576206;'en:screen-wiper';1;0
+e;14960513;'en:scene';1;0
+e;209133;'toit ouvrant';1;50
+e;10175745;'glace de custode';1;0
+e;86460;'aileron';1;128
+e;22380;'manche à balai';1;110
+e;141964;'glace';1;3647
+e;107477;'nez';1;2903
+e;103057;'cellule';1;2923
+e;25484;'champignon';1;1296
+e;144032;'cylindre';1;1305
+e;9925;'siège arrière';1;50
+e;197384;'centre de détention';1;52
+e;253972;'centre de rétention';1;78
+e;15369664;'centre de rétention administrative';1;0
+e;148961;'locaux';1;3046
+e;4078503;'boite de vitesses automatique';1;0
+e;4049424;'boîte de vitesse automatique';1;0
+e;15276590;'en:reversing lights';1;0
+e;15276591;'en:back-up lights';1;0
+e;258674;'virage à 180 degrés';1;50
+e;15053023;'en:spile';1;0
+e;15385119;'en:reverse speed';1;0
+e;124221;'virement de bord';1;58
+e;15142693;'en:head gasket';1;0
+e;14956955;'en:prow';1;0
+e;14939219;'en:parking brake';1;0
+e;73061;'lampe';1;1433
+e;81298;'habitacle';1;114
+e;117716;'autoradio';1;56
+e;4795;'portière';1;192
+e;58482;'tableau de bord';1;70
+e;144368;'ABS';1;58
+e;37068;'roulement';1;188
+e;140962;'piston';1;128
+e;153257;'levier de vitesse';1;104
+e;16875;'direction';1;3614
+e;161672;'gente';1;56
+e;191791;'chassis';1;56
+e;22817;'jante';1;158
+e;166060;'roue de secours';1;78
+e;244453;'compartiment&gt;21233';1;58;'compartiment&gt;wagon'
+e;106970;'caisse';1;1969
+e;74546;'GPL';1;1244
+e;225215;'moteur&gt;5425';1;140;'moteur&gt;machine'
+e;21314;'carburant';1;1724
+e;42769;'diesel';1;210
+e;16783;'radiateur';1;330
+e;213625;'siège&gt;36899';1;62;'siège&gt;meuble'
+e;152671;'sans plomb 98';1;54
+e;145792;'lumière';1;3567
+e;234021;'lumière&gt;8663';1;8;'lumière&gt;entendement'
+e;238459;'porte&gt;126079';1;50;'porte&gt;électronique'
+e;222883;'aile&gt;117095&gt;71926';1;58;'aile&gt;zoologie&gt;insecte'
+e;63191;'wattman';1;52
+e;234017;'lumière&gt;143061';1;10;'lumière&gt;clarté'
+e;103080;'gardien';1;1962
+e;14411836;'filet&gt;87852';1;0;'filet&gt;typographie'
+e;141161;'tuile';1;340
+e;238461;'porte&gt;136786';1;56;'porte&gt;ville'
+e;238458;'porte&gt;9894';1;50;'porte&gt;géographie'
+e;213626;'siège&gt;47911';1;12;'siège&gt;fessier'
+e;225218;'moteur&gt;167641';1;52;'moteur&gt;moteur de recherche'
+e;100424;'soute';1;130
+e;154056;'chaise pliante';1;102
+e;140715;'jambes';1;1549
+
+// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp' 
+
+rt;10;'r_holo';'tout';Il est démandé d'énumérer des 'TOUT' (a pour holonymes)  de l'objet en question. Pour 'main', on aura 'bras', 'corps', 'personne', etc... Le tout est aussi l'ensemble comme 'classe' pour 'élève'.
+
+// les relations sortantes : r;rid;node1;node2;type;w 
+// 37 relations sortantes 
+
+r;99763;6890;85501;10;58
+r;2478763;6890;153924;10;40
+r;76692619;6890;230719;10;39
+r;14701858;6890;191039;10;39
+r;15763474;6890;151555;10;34
+r;9984664;6890;143529;10;34
+r;9976220;6890;133799;10;32
+r;15763501;6890;151854;10;29
+r;9985512;6890;123888;10;29
+r;14514655;6890;100370;10;28
+r;2478762;6890;136788;10;28
+r;2478761;6890;27120;10;28
+r;211512978;6890;6863493;10;27
+r;9982341;6890;20564;10;27
+r;9986087;6890;4906;10;27
+r;97127278;6890;266109;10;26
+r;15763447;6890;33262;10;26
+r;431505725;6890;15420598;10;25
+r;431505703;6890;15420597;10;25
+r;413999636;6890;168358;10;25
+r;397850438;6890;15208239;10;25
+r;9994519;6890;179694;10;15
+r;412511934;6890;302402;10;14
+r;412272971;6890;7346254;10;11
+r;412270503;6890;176844;10;11
+r;412511864;6890;15192881;10;8
+r;10009532;6890;260842;10;5
+r;10012236;6890;226891;10;4
+r;9977047;6890;121678;10;4
+r;9991906;6890;236266;10;4
+r;9992879;6890;134491;10;4
+r;9986959;6890;36257;10;4
+r;9981044;6890;153083;10;4
+r;9991285;6890;219630;10;4
+r;9984192;6890;13524;10;4
+r;9991180;6890;104321;10;4
+r;1706104;6890;133343;10;1
+
+// les relations entrantes : r;rid;node1;node2;type;w 
+// 253 relations entrantes 
+
+r;103760;142861;6890;10;503
+r;99207;4658;6890;10;474
+r;167392;116089;6890;10;423
+r;391071981;14953137;6890;10;360
+r;9980516;28065;6890;10;358
+r;391072193;14953138;6890;10;355
+r;106329;43548;6890;10;333
+r;126753;43839;6890;10;324
+r;144998;76583;6890;10;314
+r;387691;161241;6890;10;253
+r;77765708;239722;6890;10;235
+r;169423;109413;6890;10;193
+r;205900;54101;6890;10;183
+r;155398;40184;6890;10;174
+r;103349;125198;6890;10;174
+r;142771;42588;6890;10;133
+r;112614;151685;6890;10;130
+r;385902;11959;6890;10;109
+r;398800;11195;6890;10;103
+r;143519;104130;6890;10;90
+r;149281739;152792;6890;10;87
+r;396929218;14920775;6890;10;85
+r;223294;34148;6890;10;85
+r;97419305;148108;6890;10;84
+r;1558458;26152;6890;10;83
+r;395213;29052;6890;10;83
+r;185378;102246;6890;10;83
+r;2593691;236145;6890;10;82
+r;402411961;15662904;6890;10;80
+r;402411918;15523988;6890;10;80
+r;402396424;14936526;6890;10;80
+r;402396341;14936525;6890;10;80
+r;401492416;15239086;6890;10;80
+r;217762;140667;6890;10;80
+r;402411999;15426083;6890;10;75
+r;402411879;15419003;6890;10;75
+r;402396178;14936535;6890;10;75
+r;250170;143613;6890;10;74
+r;136211;145064;6890;10;73
+r;2187503;77315;6890;10;70
+r;230933;48976;6890;10;70
+r;208113;103460;6890;10;67
+r;262636;2077;6890;10;65
+r;424918;96125;6890;10;63
+r;149836;146265;6890;10;63
+r;406932144;14932533;6890;10;60
+r;406932059;15069957;6890;10;60
+r;1592615;155990;6890;10;60
+r;403240;117604;6890;10;60
+r;268716;4533;6890;10;60
+r;249847;81249;6890;10;60
+r;151640;88989;6890;10;60
+r;138056;71418;6890;10;60
+r;121888;76657;6890;10;60
+r;211235;119793;6890;10;59
+r;386750;51979;6890;10;58
+r;112629;133813;6890;10;57
+r;193775225;315184;6890;10;55
+r;180110;148105;6890;10;53
+r;150592;115622;6890;10;52
+r;144335;7575;6890;10;52
+r;167731;43853;6890;10;51
+r;115956;146358;6890;10;51
+r;97415333;114237;6890;10;47
+r;1570799;215898;6890;10;46
+r;411486566;15102348;6890;10;45
+r;97754753;9557;6890;10;43
+r;9980108;154510;6890;10;43
+r;97754751;120591;6890;10;41
+r;448315551;15441113;6890;10;40
+r;431096795;15441112;6890;10;40
+r;431095855;15216216;6890;10;40
+r;413139543;135956;6890;10;40
+r;412922693;14925532;6890;10;40
+r;412922089;15048148;6890;10;40
+r;412921111;14925533;6890;10;40
+r;412919764;15076258;6890;10;40
+r;412919257;9120871;6890;10;40
+r;407051055;15419004;6890;10;40
+r;406637009;15393763;6890;10;40
+r;398285552;14924427;6890;10;40
+r;395060835;152961;6890;10;40
+r;440329102;14152451;6890;10;40
+r;98822061;2412527;6890;10;40
+r;98821918;179187;6890;10;40
+r;97419135;179188;6890;10;40
+r;9978230;154119;6890;10;40
+r;14463658;234591;6890;10;37
+r;9998864;120812;6890;10;37
+r;97754752;92836;6890;10;36
+r;435484486;340164;6890;10;35
+r;396531471;14935257;6890;10;35
+r;171628479;8738765;6890;10;35
+r;97754749;134788;6890;10;35
+r;97414523;141906;6890;10;35
+r;9980106;107097;6890;10;35
+r;1942190;159535;6890;10;35
+r;1891481;235617;6890;10;35
+r;1558246;213892;6890;10;35
+r;149281735;59282;6890;10;34
+r;97754757;62788;6890;10;34
+r;97418819;233261;6890;10;34
+r;9980571;45216;6890;10;34
+r;9998866;163052;6890;10;34
+r;10049436;18871;6890;10;33
+r;1846772;222964;6890;10;33
+r;149281392;8568732;6890;10;32
+r;98478418;232379;6890;10;32
+r;97754750;61557;6890;10;32
+r;97415332;232377;6890;10;32
+r;1852272;160345;6890;10;32
+r;1842380;219634;6890;10;32
+r;1558249;155840;6890;10;32
+r;457078717;68115;6890;10;31
+r;387190036;59085;6890;10;31
+r;149284513;8568751;6890;10;31
+r;98683469;42188;6890;10;31
+r;97754756;62046;6890;10;31
+r;456640827;212013;6890;10;30
+r;430831511;15279245;6890;10;30
+r;430831503;15419943;6890;10;30
+r;430831499;15419944;6890;10;30
+r;413494730;15282071;6890;10;30
+r;413139999;15428577;6890;10;30
+r;403914800;14961338;6890;10;30
+r;403873206;14944897;6890;10;30
+r;398971643;15275001;6890;10;30
+r;390876434;14939218;6890;10;30
+r;238093099;2148419;6890;10;30
+r;149281387;2194381;6890;10;30
+r;97754755;139424;6890;10;30
+r;15758556;87994;6890;10;30
+r;15758459;147551;6890;10;30
+r;10002897;202357;6890;10;30
+r;97754748;216828;6890;10;29
+r;97419134;216871;6890;10;29
+r;97419122;212955;6890;10;29
+r;25246397;147621;6890;10;29
+r;3080882;187626;6890;10;29
+r;1612166;215516;6890;10;29
+r;97419124;158197;6890;10;28
+r;97054292;142367;6890;10;28
+r;3200416;270555;6890;10;28
+r;2401059;256781;6890;10;28
+r;1756029;227954;6890;10;28
+r;1574017;213853;6890;10;28
+r;286739002;1595;6890;10;27
+r;97754754;95659;6890;10;27
+r;97419132;4245;6890;10;27
+r;97416839;124863;6890;10;27
+r;1805529;19796;6890;10;27
+r;386184378;232826;6890;10;26
+r;386184373;64659;6890;10;26
+r;386184366;6910;6890;10;26
+r;386184243;213627;6890;10;26
+r;386184224;121362;6890;10;26
+r;386184097;214625;6890;10;26
+r;380165895;365119;6890;10;26
+r;149281731;11501;6890;10;26
+r;149281396;30443;6890;10;26
+r;97416837;52396;6890;10;26
+r;97415334;233938;6890;10;26
+r;34665091;136293;6890;10;26
+r;9980794;155932;6890;10;26
+r;8394943;132398;6890;10;26
+r;1774662;2289;6890;10;26
+r;387190945;91356;6890;10;25
+r;387190750;52141;6890;10;25
+r;387190139;87760;6890;10;25
+r;387189613;139467;6890;10;25
+r;386184307;95256;6890;10;25
+r;386184241;218888;6890;10;25
+r;386184168;213441;6890;10;25
+r;386184047;48860;6890;10;25
+r;286738993;378137;6890;10;25
+r;477164746;216183;6890;10;25
+r;286738998;378138;6890;10;24
+r;286738996;213566;6890;10;24
+r;387191299;244695;6890;10;22
+r;387191209;236977;6890;10;22
+r;286739001;10175748;6890;10;22
+r;286739000;25631;6890;10;22
+r;286738999;153429;6890;10;22
+r;97370406;600098;6890;10;21
+r;468010464;205495;6890;10;20
+r;456930844;15059447;6890;10;20
+r;435745198;16576206;6890;10;20
+r;413495180;14960513;6890;10;20
+r;286739004;209133;6890;10;19
+r;286739003;10175745;6890;10;19
+r;473695879;86460;6890;10;16
+r;430055951;22380;6890;10;16
+r;307601279;141964;6890;10;16
+r;97137147;27120;6890;10;16
+r;473561395;107477;6890;10;15
+r;397365313;103057;6890;10;15
+r;97127021;25484;6890;10;15
+r;10002895;144032;6890;10;14
+r;409530674;9925;6890;10;11
+r;468075098;197384;6890;10;10
+r;468074182;253972;6890;10;10
+r;468073215;15369664;6890;10;10
+r;448356956;148961;6890;10;10
+r;441720187;4078503;6890;10;10
+r;441717685;4049424;6890;10;10
+r;436122904;15276590;6890;10;10
+r;436122894;15276591;6890;10;10
+r;426522015;258674;6890;10;10
+r;414626122;15053023;6890;10;10
+r;411770587;15385119;6890;10;10
+r;426369195;124221;6890;10;10
+r;403873186;15142693;6890;10;10
+r;397974361;14956955;6890;10;10
+r;390876482;14939219;6890;10;10
+r;1711280;73061;6890;10;9
+r;9997590;81298;6890;10;7
+r;10002885;117716;6890;10;7
+r;9980674;4795;6890;10;4
+r;10004270;58482;6890;10;4
+r;10002883;144368;6890;10;4
+r;9997587;37068;6890;10;4
+r;10002899;140962;6890;10;4
+r;9997616;153257;6890;10;4
+r;10000492;16875;6890;10;4
+r;10002893;161672;6890;10;4
+r;9997620;191791;6890;10;4
+r;10000489;22817;6890;10;4
+r;10004272;166060;6890;10;4
+r;10004277;244453;6890;10;4
+r;10000490;106970;6890;10;4
+r;10002890;74546;6890;10;4
+r;10004274;225215;6890;10;4
+r;10002887;21314;6890;10;4
+r;10002888;42769;6890;10;4
+r;10002901;16783;6890;10;4
+r;356241628;213625;6890;10;2
+r;1714428;152671;6890;10;2
+r;1706142;145792;6890;10;1
+r;2479132;234021;6890;10;-1
+r;1987667;238459;6890;10;-1
+r;1841659;222883;6890;10;-1
+r;1706103;63191;6890;10;-1
+r;2065434;234017;6890;10;-3
+r;1711421;103080;6890;10;-3
+r;367109748;14411836;6890;10;-5
+r;8800697;141161;6890;10;-5
+r;1981783;238461;6890;10;-7
+r;2138347;238458;6890;10;-8
+r;2065575;213626;6890;10;-20
+r;2211468;225218;6890;10;-22
+r;30363731;100424;6890;10;-25
+r;3209222;154056;6890;10;-25
+r;480038968;140715;6890;10;-30
+
+// END
+</code>]

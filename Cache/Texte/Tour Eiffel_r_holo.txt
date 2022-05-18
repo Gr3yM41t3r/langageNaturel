@@ -1,0 +1,90 @@
+[<code>
+// DUMP pour le terme 'Tour Eiffel' (eid=163590)
+// NE PAS TENIR COMPTE DE L'ORDRE DES RELATIONS DANS CE DUMP
+
+<def>
+<br>
+La tour Eiffel Écouter est une tour de fer puddlé de 324 mètres de hauteur (avec antennes) [o 1] située à Paris, à l'extrémité nord-ouest du parc du Champ-de-Mars en bordure de la Seine dans le 7e arrondissement. Son adresse officielle est 5, avenue Anatole-France.
+</br></def>
+
+
+
+// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+
+nt;1;'n_term'
+nt;777;'n_wikipedia'
+
+// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name' 
+
+e;163590;'Tour Eiffel';1;72
+e;191118;'Ville Lumière';1;50
+e;113317;'Paris';1;3888
+e;191119;'Ville-Lumière';1;50
+e;213995;'Paris&gt;159560';1;384;'Paris&gt;capitale de la France'
+e;87987;'France';1;4535
+e;15107876;'en:capital of France';1;0
+e;14953191;'en:Paris';1;0
+e;15107877;'en:French capital';1;0
+e;14966945;'en:City of Light';1;0
+e;136786;'ville';1;9193
+e;2180;'cathédrale';1;3073
+e;206083;'premier étage';1;58
+e;14868804;'Premier étage';777;0
+e;14956397;'en:second floor';1;0
+e;14956396;'en:first floor';1;0
+e;139869;'charpente';1;318
+e;15246960;'étage du dessous';1;0
+e;24660;'palier';1;108
+e;34898;'pied';1;4548
+e;123573;'sommet';1;3361
+e;72257;'base';1;3815
+e;216024;'pied&gt;216019';1;52;'pied&gt;pied d'objet'
+e;19872;'étage';1;1559
+e;221992;'base&gt;214005';1;58;'base&gt;partie inférieure'
+e;118350;'ascenseur';1;316
+e;16242608;'Étage inférieur';777;0
+e;296240;'étage inférieur';777;50
+e;81320;'escalier';1;910
+
+// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp' 
+
+rt;10;'r_holo';'tout';Il est démandé d'énumérer des 'TOUT' (a pour holonymes)  de l'objet en question. Pour 'main', on aura 'bras', 'corps', 'personne', etc... Le tout est aussi l'ensemble comme 'classe' pour 'élève'.
+
+// les relations sortantes : r;rid;node1;node2;type;w 
+// 11 relations sortantes 
+
+r;85003267;163590;191118;10;32
+r;97419137;163590;113317;10;27
+r;85003254;163590;191119;10;26
+r;85003253;163590;213995;10;26
+r;85003250;163590;87987;10;17
+r;397806322;163590;15107876;10;10
+r;397806321;163590;14953191;10;10
+r;397806320;163590;15107877;10;10
+r;397806319;163590;14966945;10;10
+r;8792905;163590;136786;10;1
+r;8799615;163590;2180;10;-5
+
+// les relations entrantes : r;rid;node1;node2;type;w 
+// 17 relations entrantes 
+
+r;85159341;206083;163590;10;186
+r;385029372;14868804;163590;10;185
+r;406698304;14956397;163590;10;160
+r;406698279;14956396;163590;10;160
+r;12986774;139869;163590;10;61
+r;412969096;15246960;163590;10;40
+r;85159339;24660;163590;10;32
+r;85159344;34898;163590;10;30
+r;85159333;123573;163590;10;30
+r;85159337;72257;163590;10;29
+r;85159335;216024;163590;10;27
+r;85159346;19872;163590;10;26
+r;85159343;221992;163590;10;26
+r;85159331;118350;163590;10;26
+r;426202535;16242608;163590;10;20
+r;407880036;296240;163590;10;20
+r;10015269;81320;163590;10;4
+
+// END
+</code>]

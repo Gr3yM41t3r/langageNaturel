@@ -1,0 +1,99 @@
+[<code>
+// DUMP pour le terme 'piston' (eid=140962)
+// NE PAS TENIR COMPTE DE L'ORDRE DES RELATIONS DANS CE DUMP
+
+<def>
+<br>
+1. (Vieilli) Cylindre ou bouchon qui obturait naguère la cuvette dans les cabinets d'aisance.<br>
+2. Petit bouton sur lequel on presse pour ouvrir une boîte.<br>
+3. (Optique) Différence de marche variable induite par la turbulence atmosphérique.<br>
+4. (Figuré) (Familier) (France) Importun.<br> 
+ C'est un solliciteur un peu piston.  <br>
+5. (Argot des Gadz'Arts) vraiment bien.<br> 
+ t'as vu sa bucque? Elle est vraiment piston, cra Zaloeil!  <br>
+6. (Mécanique) Cylindre mobile dans le corps d'une pompe, organe de machine constitué par une cloison, mobile entre deux fluides à des pressions différentes, et destiné à transmettre un effort moteur.<br> 
+ Le piston d'une machine à vapeur, d'un moteur à explosion.   <br/> 
+ La course, le jeu du piston.   <br/> 
+ La tige du piston.   <br/> 
+ Le corps du piston.   <br/> 
+ La pompe ne va pas, le piston est rompu.  <br/>
+7. (Figuré) (Familier) Cause d'action, de mouvement.<br/> 
+ Les commis voyageurs, ces intelligents pistons de la machine à vapeur nommée spéculation.    
+ (Honoré de Balzac)  <br/>
+8. (Familier) Recommandation, protection.<br/> 
+ Le piston fait trop souvent plus pour l'avancement que le mérite personnel.  <br/>
+9. (Musique) Valve cylindrique de certains instruments à vent, permettant de moduler les notes.<br/>
+10. (Technique) (Vieilli) (Didactique) Appareil de verrier appelé généralement pompe de Robinet.<br/>
+11. (Vieilli) (Argot militaire) Capitaine.<br/> 
+ À Soissons, la fameuse nuit où les autres nous bénissaient? Quelle dégringolade!? une décoction de petit pois. On cherchait le piston partout. Pas de piston. Inconnu le piston. On l'a retrouvé, à la fin, dans une cave, plié en deux? une loque.    
+ (Victor Méric, Les Compagnons de l'Escopette, Éditions de l'Épi, Paris, 1930, pp. 13-14)  <br/>
+12. (Vieilli) (Argot scolaire) Élève de l'École centrale, ou personne se préparant à l'être.<br/> 
+ Encouragé par ses nouveaux camarades, qui profitent de son ingéniosité à inventer des tours tordus, Antoine prend une part active à la guéguerre que les flottards, autrement dit ceux qui, comme lui, préparent la Navale, mènent contre les cyrards, les taupins et les pistons, qui voudraient intégrer, eux, Saint-Cyr, Polytechnique ou l'École centrale.    
+ (Virgil Tanase, Saint-Exupéry, Gallimard, « folio - biographies », 2013, pp. 29-30)  <br/> 
+ Heureusement, les multiples soucis de la rentrée l'absorbèrent : ses parents l'envoyèrent au lycée Saint-Louis suivre les cours préparatoires à l'École centrale. Il portait un beau calot à liséré rouge avec un insigne et chantait :C'est le piston qui fait marcher les machinesC'est le piston qui fait marcher les wagons...Cette dignité nouvelle de « piston » comblait Lucien de fierté; et puis sa classe ne ressemblait pas aux autres : elle avait des traditions et un cérémonial; c'était une force. Par exemple, il était d'usage qu'une voix demandât, un quart d'heure avant la fin du cours de français : « Qu'est-ce qu'un cyrard? » et tout le monde répondait en sourdine : « C'est un con! » Sur quoi la voix reprenait : « Qu'est-ce qu'un agro? » et on répondait un peu plus fort : « C'est un con! » [...] Il y avait quelques instants de silence absolu et les élèves se regardaient avec des sourires d'intelligence, puis quelqu'un criait : « Qu'est-ce qu'un piston? » et ils rugissaient tous ensemble : « C'est un type énorme! »    
+ (Jean-Paul Sartre, L'enfance d'un chef, 1938)  <br/>
+13. (Musique) (Par ellipse) Cornet à pistons.<br/> 
+ Le fracas de l'orchestre leur arrivait, assourdissant. Par instants, les violons dominaient le vacarme qu'ils semblaient apaiser, caresser, contenir, mais le saxo, le piston, la clarinette et surtout la trompette [?] se mettaient ensemble à mugir et à pétarader de telle sorte que personne ne parlait plus.    
+ (Francis Carco, L'Homme de minuit, Éditions Albin Michel, Paris, 1938)  <br/>
+14. En musique, un piston est un mécanisme permettant de moduler les sons émis par la majorité des instruments de la famille des cuivres.<br/>
+15. Le piston est l'action par laquelle une personne est recrutée pour un emploi ou nommée à une fonction grâce à la recommandation ou l'appui d'une connaissance qui, travaillant souvent au sein de l'entreprise ou de l'organisation concernée, va recommander le candidat à l'employeur ou à l'institution.<br/>
+16. En musique, un piston est un mécanisme utilisé par la majorité des instruments de la famille des cuivres. Il permet de moduler la hauteur du son en déviant le flux d'air vers un tuyau supplémentaire.<br/>
+17. En mécanique, un piston est une pièce rigide de section généralement circulaire coulissant dans un cylindre de forme complémentaire. Le déplacement du piston entraîne une variation de volume de la chambre, partie située entre le piston et le cylindre. Un piston permet la conversion d'une pression en un travail, ou réciproquement.
+</br></br></br></br></br></br></br></br></br></def>
+
+
+
+// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+
+nt;1;'n_term'
+
+// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name' 
+
+e;140962;'piston';1;128
+e;237;'objet';1;3470
+e;246870;'objet&gt;109527';1;200;'objet&gt;chose'
+e;216183;'pièce mécanique';1;10
+e;144032;'cylindre';1;1305
+e;106265;'appareil';1;2573
+e;117604;'mécanisme';1;2674
+e;25856;'valve';1;138
+e;139768;'artéfact';1;142
+e;96851;'pièce';1;3998
+e;316850;'entité physique';1;50
+e;67368;'mécanique';1;3334
+e;105716;'tuyau';1;634
+e;134899;'tube';1;3121
+e;215393;'tube&gt;116053';1;38;'tube&gt;conduit'
+e;20795;'tuba';1;158
+e;64227;'anomalie';1;867
+
+// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp' 
+
+rt;6;'r_isa';'générique';Il est demandé d'énumérer les GENERIQUES/hyperonymes du terme. Par exemple, 'animal' et 'mammifère' sont des génériques de 'chat'.
+
+// les relations sortantes : r;rid;node1;node2;type;w 
+// 16 relations sortantes 
+
+r;3086178;140962;237;6;124
+r;3086177;140962;246870;6;124
+r;9923259;140962;216183;6;49
+r;97347512;140962;144032;6;45
+r;57568996;140962;106265;6;39
+r;110119219;140962;117604;6;31
+r;82790794;140962;25856;6;28
+r;427594923;140962;139768;6;26
+r;214461913;140962;96851;6;26
+r;371178508;140962;316850;6;25
+r;4980439;140962;67368;6;5
+r;3086175;140962;105716;6;0
+r;3086179;140962;134899;6;-1
+r;3086173;140962;215393;6;-1
+r;3086166;140962;20795;6;-1
+r;79958667;140962;64227;6;-27
+
+// les relations entrantes : r;rid;node1;node2;type;w 
+// 0 relations entrantes 
+
+
+// END
+</code>]

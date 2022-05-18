@@ -1,0 +1,251 @@
+[<code>
+// DUMP pour le terme 'pigeon' (eid=74657)
+// NE PAS TENIR COMPTE DE L'ORDRE DES RELATIONS DANS CE DUMP
+
+<def>
+<br>
+Oiseau de la famille des Columbidés, vivant en plaine et dans les villes, et se nourrissant principalement de graines.<br> 
+ Tout autour de la jeune femme, les pigeons voletaient, roucoulaient. Les mâles, empressés, la gorge gonflée, saluaient jusqu'à terre les femelles.    
+ (Out-el-Kouloub, Zaheira, dans ''Trois contes de l'Amour et de la Mort'', 1940)  <br> 
+ Une volée de pigeons.   <br> 
+ Comment faire imaginer, par exemple, une ville sans pigeons ?    
+ (La Tête en friche)  
+</br></br></br></br></def>
+
+
+
+// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+
+nt;1;'n_term'
+nt;8;'n_chunk'
+
+// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name' 
+
+e;74657;'pigeon';1;906
+e;73827;'voler';1;3095
+e;10246;'fienter';1;56
+e;16605918;'se faire voler';1;0
+e;16605894;'::&gt;31:218806&gt;29:213857';8;0;'voler&gt;déplacement aérien [endroit] ciel&gt;atmosphère'
+e;213857;'voler&gt;167847';1;278;'voler&gt;déplacement aérien'
+e;16595341;'::&gt;31:83401&gt;29:10246';8;0;'fienter [endroit] passant'
+e;14573351;'::&gt;14:37571&gt;29:53223';8;0;'lâcher [objet] fiente'
+e;53223;'lâcher';1;126
+e;14465543;'::&gt;31:131717&gt;29:37229';8;0;'se trouver [endroit] centre-ville'
+e;37229;'se trouver';1;54
+e;14380872;'::&gt;31:112137&gt;29:126612';8;0;'se poser [endroit] lampadaire'
+e;126612;'se poser';1;92
+e;43601;'se reproduire';1;502
+e;151440;'se faire rouler';1;56
+e;164508;'se faire avoir';1;138
+e;12704;'picorer';1;86
+e;119520;'chier';1;342
+e;252259;'se faire baiser&gt;164508';1;2;'se faire baiser&gt;se faire avoir'
+e;25405;'voyager';1;1622
+e;161255;'se faire baiser';1;92
+e;139709;'s'envoler';1;186
+e;214536;'se faire enculer';1;26
+e;16964;'marcher';1;2562
+e;224422;'manger&gt;113902&gt;119570';1;206;'manger&gt;alimentation&gt;absorber'
+e;213856;'voler&gt;58321';1;178;'voler&gt;malhonnêteté'
+e;15422672;'en:not notice a thing';1;0
+e;15422671;'en:not see a thing';1;0
+e;15422670;'en:be completely oblivious';1;0
+e;15431781;'en prendre plein les mirettes';1;0
+e;390955;'se faire piéger';1;74
+e;15402018;'en:not smell the rat';1;0
+e;15402017;'en:be dazzled';1;0
+e;186630;'n'y voir que du bleu';1;50
+e;15402016;'en:be unaware';1;0
+e;15402015;'en:be in the dark';1;0
+e;15402014;'en:be clueless';1;0
+e;15314438;'en:be taken to the cleaners';1;0
+e;16322123;'::&gt;31:77306&gt;29:73827';8;0;'voler [endroit] ciel'
+e;16605912;'::&gt;13:74657&gt;29:213857';8;0;'voler&gt;déplacement aérien [sujet] pigeon'
+e;16595339;'::&gt;13:74657&gt;29:10246';8;0;'fienter [sujet] pigeon'
+e;14374500;'se poser&gt;34642&gt;3224813';1;0;'se poser&gt;se placer&gt;animal volant'
+e;14374498;'se poser&gt;34642';1;0;'se poser&gt;se placer'
+e;15282442;'en:to get ripped off';1;0
+e;15454086;'en:be deceived';1;0
+e;266370;'se faire rouler dans la farine';1;50
+e;186631;'n'y voir que du feu';1;50
+e;15309629;'en:fall for something';1;0
+e;15309627;'en:be taken for a ride';1;0
+e;15309628;'en:be fooled';1;0
+e;248918;'se faire arnaquer';1;84
+e;15291873;'en:be tricked';1;0
+e;15291874;'en:be cheated';1;0
+e;15396328;'en:fall for it';1;0
+e;15244997;'en:be had';1;0
+e;15282446;'en:get ripped off';1;0
+e;15309626;'se faire prendre pour un pigeon / passer pour un pigeon';1;0
+e;82148;'se blouser';1;62
+e;15454087;'en:get conned';1;0
+e;15203879;'en:be conned';1;0
+e;15282443;'en:to be had';1;0
+e;15323341;'se faire pigeonner';1;0
+e;4332872;'se faire entuber';1;24
+e;15323340;'en:be suckered';1;0
+e;15323342;'en:get suckered';1;0
+e;16168820;'::&gt;13:74657&gt;29:73827';8;0;'voler [sujet] pigeon'
+e;14573349;'::&gt;13:74657&gt;29:53223';8;0;'lâcher [sujet] pigeon'
+e;14465541;'::&gt;13:74657&gt;29:37229';8;0;'se trouver [sujet] pigeon'
+e;14380870;'::&gt;13:74657&gt;29:126612';8;0;'se poser [sujet] pigeon'
+e;105814;'regarder';1;3658
+e;6681658;'manger&gt;113902';1;138;'manger&gt;alimentation'
+e;239317;'se faire enculer&gt;115432';1;24;'se faire enculer&gt;duperie'
+e;239520;'pondre&gt;117095';1;26;'pondre&gt;zoologie'
+e;135139;'planer';1;348
+e;161875;'aterrir';1;56
+e;27636;'salir';1;310
+e;94345;'nicher';1;128
+e;178926;'attérir';1;52
+e;101610;'atterrir';1;252
+e;233198;'boire&gt;86872';1;102;'boire&gt;se désaltérer'
+e;76181;'glousser';1;58
+e;26142;'agacer';1;336
+e;12112;'faire chier';1;248
+e;49739;'apporter';1;1730
+e;104396;'énerver';1;456
+e;53455;'déféquer';1;144
+e;87091;'nidifier';1;54
+e;225252;'marcher&gt;59303';1;182;'marcher&gt;se déplacer'
+e;7886;'dégrader';1;128
+e;2234;'copuler';1;236
+e;33882;'se nourrir';1;436
+e;122409;'roucouler';1;152
+e;225253;'marcher&gt;8180';1;50;'marcher&gt;croire'
+e;250346;'roucouler&gt;74657';1;92;'roucouler&gt;pigeon'
+e;262268;'se faire exploiter';1;22
+e;112239;'pondre';1;232
+e;47918;'boire';1;4568
+e;259820;'vivre&gt;160251';1;78;'vivre&gt;être en vie'
+e;43253;'dormir';1;6578
+e;251694;'mourir&gt;126720';1;238;'mourir&gt;cesser de vivre'
+e;115440;'couver';1;172
+e;124600;'mourir';1;2755
+e;140318;'parler';1;4469
+e;2442;'vivre';1;3276
+e;130164;'manger';1;10304
+e;16605947;'::&gt;13:74657&gt;29:16605918';8;0;'se faire voler [sujet] pigeon'
+e;47972;'réfléchir';1;762
+
+// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp' 
+
+rt;24;'r_agent-1';'agent typique-1';Que peut faire ce SUJET ? (par exemple chat =&gt; miauler, griffer, etc.) (chat r_agent-1 manger)
+
+// les relations sortantes : r;rid;node1;node2;type;w 
+// 106 relations sortantes 
+
+r;11802215;74657;73827;24;89
+r;96701779;74657;10246;24;77
+r;437851822;74657;16605918;24;74
+r;437851759;74657;16605894;24;74
+r;2863983;74657;213857;24;74
+r;437387775;74657;16595341;24;71
+r;370368834;74657;14573351;24;62
+r;370368819;74657;53223;24;62
+r;367039276;74657;14465543;24;61
+r;367039259;74657;37229;24;61
+r;365211947;74657;14380872;24;61
+r;365211930;74657;126612;24;61
+r;2647140;74657;43601;24;58
+r;97126589;74657;151440;24;55
+r;97126592;74657;164508;24;54
+r;14841666;74657;12704;24;52
+r;96701782;74657;119520;24;51
+r;97126597;74657;252259;24;42
+r;14843947;74657;25405;24;42
+r;97126590;74657;161255;24;40
+r;2942618;74657;139709;24;40
+r;98462822;74657;214536;24;34
+r;97741951;74657;16964;24;34
+r;15796446;74657;224422;24;32
+r;190706654;74657;213856;24;31
+r;468331591;74657;15422672;24;30
+r;468331569;74657;15422671;24;30
+r;468331547;74657;15422670;24;30
+r;468330813;74657;15431781;24;30
+r;457385082;74657;390955;24;30
+r;449504990;74657;15402018;24;30
+r;449504958;74657;15402017;24;30
+r;449411375;74657;186630;24;30
+r;449411361;74657;15402016;24;30
+r;449411330;74657;15402015;24;30
+r;449411319;74657;15402014;24;30
+r;443066178;74657;15314438;24;30
+r;438104396;74657;16322123;24;30
+r;438103438;74657;16605912;24;30
+r;438102690;74657;16595339;24;30
+r;436725699;74657;14374500;24;30
+r;436725698;74657;14374498;24;30
+r;431748381;74657;15282442;24;30
+r;431748269;74657;15454086;24;30
+r;431550600;74657;266370;24;30
+r;431545816;74657;186631;24;30
+r;410073305;74657;15309629;24;30
+r;410026410;74657;15309627;24;30
+r;405615926;74657;15309628;24;30
+r;405615495;74657;248918;24;30
+r;405615472;74657;15291873;24;30
+r;405615471;74657;15291874;24;30
+r;405615454;74657;15396328;24;30
+r;405615433;74657;15244997;24;30
+r;405614473;74657;15282446;24;30
+r;405594123;74657;15309626;24;30
+r;404824234;74657;82148;24;30
+r;404824215;74657;15454087;24;30
+r;402822057;74657;15203879;24;30
+r;398548986;74657;15282443;24;30
+r;397831577;74657;15323341;24;30
+r;397831546;74657;4332872;24;30
+r;397637441;74657;15323340;24;30
+r;397637420;74657;15323342;24;30
+r;425308394;74657;16168820;24;30
+r;370392716;74657;14573349;24;30
+r;367049550;74657;14465541;24;30
+r;365261462;74657;14380870;24;30
+r;347613759;74657;105814;24;30
+r;234482741;74657;6681658;24;30
+r;97126596;74657;239317;24;30
+r;96701755;74657;239520;24;30
+r;96701754;74657;135139;24;30
+r;96701753;74657;161875;24;30
+r;96701752;74657;27636;24;30
+r;96701751;74657;94345;24;30
+r;96701742;74657;178926;24;30
+r;96701741;74657;101610;24;30
+r;96701740;74657;233198;24;30
+r;96701739;74657;76181;24;30
+r;96701738;74657;26142;24;30
+r;96701737;74657;12112;24;30
+r;96701736;74657;49739;24;30
+r;96701735;74657;104396;24;30
+r;96701734;74657;53455;24;30
+r;96701733;74657;87091;24;30
+r;96701732;74657;225252;24;30
+r;96701731;74657;7886;24;30
+r;96701730;74657;2234;24;30
+r;78266530;74657;33882;24;30
+r;14834962;74657;122409;24;30
+r;14832993;74657;225253;24;30
+r;14831462;74657;250346;24;30
+r;14827820;74657;262268;24;30
+r;3005407;74657;112239;24;30
+r;2957321;74657;47918;24;30
+r;2921408;74657;259820;24;30
+r;2834763;74657;43253;24;30
+r;2802441;74657;251694;24;30
+r;2724025;74657;115440;24;30
+r;2688589;74657;124600;24;30
+r;2680028;74657;140318;24;30
+r;2664516;74657;2442;24;30
+r;2614965;74657;130164;24;30
+r;476495120;74657;16605947;24;23
+r;8911470;74657;47972;24;5
+
+// les relations entrantes : r;rid;node1;node2;type;w 
+// 0 relations entrantes 
+
+
+// END
+</code>]

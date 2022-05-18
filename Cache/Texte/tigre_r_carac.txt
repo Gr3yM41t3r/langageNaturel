@@ -1,0 +1,124 @@
+[<code>
+// DUMP pour le terme 'tigre' (eid=137333)
+// NE PAS TENIR COMPTE DE L'ORDRE DES RELATIONS DANS CE DUMP
+
+<def>
+</def>
+
+
+
+// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+
+nt;1;'n_term'
+nt;2;'n_form'
+
+// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name' 
+
+e;137333;'tigre';1;1484
+e;48510;'dangereux';1;2359
+e;143206;'tigré';1;222
+e;74514;'féroce';1;146
+e;89513;'rayé';1;90
+e;48496;'sauvage';1;2444
+e;110732;'rapide';1;3402
+e;48855;'carnivore';1;1566
+e;154501;'dangeureux';1;54
+e;88096;'gros';1;3306
+e;42706;'cruel';1;190
+e;26801;'moucheté';1;54
+e;237773;'sauvage&gt;74514';1;22;'sauvage&gt;féroce'
+e;22262;'solitaire';1;1763
+e;222843;'solitaire&gt;25090';1;82;'solitaire&gt;seul'
+e;3676046;'nocturne&gt;155825&gt;117095';1;0;'nocturne&gt;de nuit&gt;zoologie'
+e;60448;'mâle';1;2487
+e;11254520;'dangereux pour l'homme';1;0
+e;436343;'carnassier&gt;48855';1;60;'carnassier&gt;carnivore'
+e;28466;'jeune';1;3734
+e;1384;'vivant';1;3307
+e;133424;'endotherme';1;50
+e;52413;'carnassier';1;402
+e;122864;'mort';1;7245
+e;317213;'carnivore&gt;178691';1;44;'carnivore&gt;régime alimentaire'
+e;599254;'carnassier&gt;171869';1;0;'carnassier&gt;Adj:'
+e;330215;'bilatéralement symétrique';1;22
+e;122439;'nouveau';1;3783
+e;15806;'empaillé';1;86
+e;99220;'hétérotrophe';1;68
+e;270354;'rayé&gt;124455';1;50;'rayé&gt;motif'
+e;105621;'vivipare';1;64
+e;8847555;'en:cruel';1;0
+e;19197;'chassé';1;84
+e;2198097;'exterminé';2;0
+e;144229;'bon';1;3574
+e;674336;'sauvage&gt;171869';1;0;'sauvage&gt;Adj:'
+e;4652;'agressif';1;226
+e;23178;'grand';1;3856
+e;264592;'prêt à bondir';1;50
+e;10314012;'en:heterotroph';1;0
+e;229619;'éteint&gt;89314';1;56;'éteint&gt;disparu'
+e;1795712;'rayé&gt;171869';1;0;'rayé&gt;Adj:'
+e;15196;'blanc';1;4731
+e;42059;'scorpion';1;434
+e;322969;'fixé&gt;77396';1;50;'fixé&gt;assujetti'
+e;88899;'patient';1;2612
+
+// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp' 
+
+rt;17;'r_carac';'caractéristique';Pour un terme donné, souvent un objet, il est demandé d'en énumérer les CARACtéristiques (adjectifs) possibles/typiques. Par exemple, 'liquide', 'froide', 'chaude', pour 'eau'.
+
+// les relations sortantes : r;rid;node1;node2;type;w 
+// 46 relations sortantes 
+
+r;24808440;137333;48510;17;861
+r;1746258;137333;143206;17;116
+r;1589958;137333;74514;17;92
+r;14805419;137333;89513;17;83
+r;1589959;137333;48496;17;80
+r;1589957;137333;110732;17;70
+r;2275853;137333;48855;17;67
+r;15756096;137333;154501;17;56
+r;2309623;137333;88096;17;55
+r;97322334;137333;42706;17;47
+r;97322343;137333;26801;17;42
+r;97055613;137333;237773;17;41
+r;1760757;137333;22262;17;41
+r;1760758;137333;222843;17;39
+r;373871871;137333;3676046;17;37
+r;2306534;137333;60448;17;34
+r;288424999;137333;11254520;17;31
+r;104909060;137333;436343;17;31
+r;97055546;137333;28466;17;31
+r;2700338;137333;1384;17;31
+r;2867410;137333;133424;17;30
+r;108811045;137333;52413;17;29
+r;2878616;137333;122864;17;29
+r;107332892;137333;317213;17;28
+r;107332876;137333;599254;17;27
+r;11827237;137333;330215;17;27
+r;372655504;137333;122439;17;26
+r;477551029;137333;15806;17;26
+r;78263907;137333;99220;17;26
+r;11526775;137333;270354;17;26
+r;271551140;137333;105621;17;25
+r;214243307;137333;8847555;17;25
+r;477576658;137333;19197;17;25
+r;477563470;137333;2198097;17;25
+r;8322120;137333;144229;17;24
+r;104909357;137333;674336;17;22
+r;97322332;137333;4652;17;22
+r;14803353;137333;23178;17;21
+r;126455370;137333;264592;17;9
+r;293330011;137333;10314012;17;8
+r;2196618;137333;229619;17;5
+r;97868600;137333;1795712;17;4
+r;24901403;137333;15196;17;1
+r;15756094;137333;42059;17;-5
+r;15756092;137333;322969;17;-5
+r;8366593;137333;88899;17;-5
+
+// les relations entrantes : r;rid;node1;node2;type;w 
+// 0 relations entrantes 
+
+
+// END
+</code>]

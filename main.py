@@ -10,6 +10,7 @@ data = []
 
 relatiuon_deductive = ['r_isa', 'r_holo']
 relatiuon_inductive = ['r_hypo', 'r_has_part']
+relation_inductive_interdis=['r_lieu']
 relatiuon_transitive = ['r_lieu', 'r_lieu-1', 'r_isa', 'r_hypo']
 
 
@@ -55,10 +56,13 @@ def extraction_relation_html(word, relation):
         "http://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel=" + word + "&rel=" + relation)
     soup = BeautifulSoup(html.content, 'html.parser')
     texte_brut = soup.find_all('code')
+    data.clear()
     lignes_noeuds_et_relations = re.findall('[re];[0-9]*;.*', str(texte_brut))
     id_relation = ''
     id_terme = lignes_noeuds_et_relations[0].split(";")[1]
-
+    with open('Cache/Texte/'+word+"_"+relation+".txt",'a+') as output:
+        output.write(str(texte_brut))
+        output.close()
     for r in lignes_noeuds_et_relations:
         splitedRelation = r.split(";")
         if splitedRelation[0] == "r":
@@ -132,12 +136,12 @@ def transitive(mot1, relation, mot2, maxsolutions):
         transitive_array2 = []
         weight = {}
         for i in data:
-            if i['id'] == "r":
+            if i['id'] == "r" and int(i['w'])>0:
                 if i['r'] == "sortante":
                     transitive_array1.append(i['node2'])
         for j in data2:
             if j['id'] == "r":
-                if j['r'] == "entrante":
+                if j['r'] == "entrante" and int(j['w'])>0:
                     transitive_array2.append(j['node1'])
                     weight.update({j['node1']: j['w']})
 
@@ -193,10 +197,11 @@ def deductive(mot1, relation, mot2, maxsolutions):
                 if j['id'] == "r":
                     if int(j['w']) > 0 and j['r'] == "sortante":
                         first.append(j['node2'])
+                        weight.update({j['node2']: j['w']})
             for k in data2:
                 if k['id'] == "r" and int(k['w']) > 0:
                     second.append(k['node1'])
-                    weight.update({k['node1']: k['w']})
+
             intersection = list(set(first) & set(second))
             printing_dic = {}
             counter = 0
@@ -236,10 +241,11 @@ def inductive(mot1, relation, mot2, maxsolutions):
                 if j['id'] == "r":
                     if int(j['w']) > 0 and j['r'] == "sortante":
                         first.append(j['node2'])
+                        weight.update({j['node2']: j['w']})
+
             for k in data2:
                 if k['id'] == "r" and int(k['w']) > 0:
                     second.append(k['node1'])
-                    weight.update({k['node1']: k['w']})
             intersection = list(set(first) & set(second))
             printing_dic = {}
             counter = 0
