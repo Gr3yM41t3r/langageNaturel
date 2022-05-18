@@ -242,4 +242,14 @@ def detectInfernce(mot1, relation, mot2,maxsolutions):
     deductive(mot1, relation, mot2,maxsolutions)
 
 
-detectInfernce("tigre", "r_carac", "dangereux",4)
+
+
+
+
+print("************************Mini projet sur les inférences************************")
+mot1 = input("entrez le 1er mot  : ")
+relation = input("entrez la relation  :  ")
+mot2 = input("entrez le 2eme mot  :  ")
+maxsolution = input("entrez le nombre maximum de solution  :  ")
+
+detectInfernce(mot1,relation,mot2,int(maxsolution))
